@@ -17,6 +17,7 @@ public class Circular_LL {
 
     public void creation(){
         int data,n;
+
         do{
 
             System.out.println("Enter Data");
@@ -29,7 +30,15 @@ public class Circular_LL {
                 //inserting in begning
                 new_node.next=head;
                 head=new_node;
-                tail.next=head;
+               tail.next=head;
+
+
+               /*   //tail will point to new node.
+                tail.next = newNode;
+                //New node will become new tail.
+                tail = newNode;
+                //Since, it is circular linked list tail will point to head.
+                tail.next = head;*/
             }
 
             System.out.println("Enter 1 to Continue");
