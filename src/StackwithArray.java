@@ -28,9 +28,6 @@ public class StackwithArray {
             System.out.println("Data Poped :)");
         }
     }
-
-
-
     static void display(){
         if(top==-1){
             System.out.println("Stack Empty");
