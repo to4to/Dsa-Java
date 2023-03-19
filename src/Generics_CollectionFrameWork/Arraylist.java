@@ -25,6 +25,13 @@ public class Arraylist {
        List list1= List.of(2,3,4,5);
         list.addAll(list1);//Adds Whole Collection
 
+        list.size();//Gives Length Of Array
+
+
+        list.contains(22);//Checks If Element Is Present Or Not
+
+        System.out.println("For Each Starts");
+        list.forEach(System.out::println);//Prints All Elements
 
 
     }
