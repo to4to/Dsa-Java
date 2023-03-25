@@ -29,13 +29,13 @@ public class StackGenerics {
                                                     stk.insertElementAt(1000, 2);
                                                         stk.isEmpty();
                                                         stk.lastIndexOf(100);
-                                                            stk.lastIndexOf(1000);
+                                                        stk.lastIndexOf(1000);
                                                             stk.peek();
                                                                 stk.pop();
                                                                 stk.push(1000);
-                                                                    stk.remove(2);
+                                                                stk.remove(2);
                                                                     stk.removeElement(1000);
-                                                                        stk.removeElementAt(2);
+                                                                    stk.removeElementAt(2);
 
                                                                             stk.search(100);
                                                                             stk.search(1000);
