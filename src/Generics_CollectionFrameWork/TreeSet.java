@@ -22,6 +22,16 @@ public class TreeSet {
         treeSet.size();
         treeSet.clear();
         treeSet.isEmpty();
+    treeSet.contains(3);
+    treeSet.containsAll(treeSet);
+    treeSet.hashCode();
+    treeSet.iterator();
+    treeSet.toArray();
+    treeSet.toArray(new Integer[0]);
+    treeSet.toString();
+
+    treeSet.notify();
+    treeSet.notifyAll();
 
 
     }
