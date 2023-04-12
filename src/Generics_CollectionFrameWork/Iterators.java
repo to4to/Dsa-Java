@@ -15,6 +15,10 @@ public class Iterators {
         while(listIterator.hasNext()){
             System.out.println(listIterator.next());
         }
+
+        while(listIterator.hasPrevious()){
+            System.out.println(listIterator.previous());
+        }
     }
 
 }
