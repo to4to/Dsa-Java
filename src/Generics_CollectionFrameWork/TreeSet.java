@@ -34,8 +34,33 @@ public class TreeSet {
     treeSet.notifyAll();
 
 
+
+    //recursion method to print the treeSet elements
+
+    public static void print(Set<Integer> treeSet){
+        if(treeSet.isEmpty()){
+            return;
+        }
+        else{
+            System.out.println(treeSet);
+            print(treeSet);
+        }
+
     }
 
+
+    void twoSum(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                System.out.println("[" + map.get(complement) + "," + i + "]");
+            }
+            map.put(nums[i], i);
+        }
+    }
+
+    }
 
 
 
