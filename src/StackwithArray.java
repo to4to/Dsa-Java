@@ -43,7 +43,7 @@ public class StackwithArray {
     }
 }
 
-
+void Test();
 class Stack extends StackwithArray{
     public static void main(String[] args) {
 
